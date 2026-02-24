@@ -16,7 +16,6 @@ My personal architecture story & pitch
 It is designed to demonstrate not just what I build, but how I think as an HMI architect.
 
 
-Code
 HMI-Architect-Portfolio/
 │
 ├── projects/
