@@ -31,17 +31,11 @@ HMI-Architect-Portfolio/
 │   ├── performance-optimization.md
 │   └── safety-critical-ui-design.md
 │
-├── interview-prep/
-│   ├── cto-technical-deep-dive.md
-│   ├── cpp-qt-trick-questions.md
-│   ├── architecture-puzzles.md
-│   ├── culture-fit-answers.md
-│   └── salary-negotiation.md
 │
 ├── portfolio/
 │   ├── portfolio-story.md
 │   ├── final-pitch.md
-│   └── cv-bullet-points.md
+│   └── bullet-points.md
 │
 └── README.md
 
