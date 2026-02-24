@@ -1,23 +1,26 @@
 # Architecture Diagram (ASCII)
+
+```text
 +-----------------------------+
 |       QML UI Layer         |
 |  Screens, Components, UX   |
 +-------------+---------------+
-|
-v
+              |
+              v
 +-----------------------------+
 |      ViewModel Layer       |
 |   Q_PROPERTY, Signals, API |
 +-------------+---------------+
-|
-v
+              |
+              v
 +-----------------------------+
 |      Backend Logic (C++)   |
 | State Machine, Validation  |
 +-------------+---------------+
-|
-v
+              |
+              v
 +-----------------------------+
 |   Hardware / Device Layer  |
 | Sensors, Motors, Safety    |
 +-----------------------------+
+```
