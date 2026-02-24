@@ -1,13 +1,12 @@
-
 ```text
 User
  |
  v
 +------------+      invoke()       +------------+       request        +-----------+
-|  QML View  | ------------------> |  ViewModel | ------------------>  |  Backend  |
+|  QML View  | ------------------> |  ViewModel | ------------------> |  Backend  |
 | (UI thread)|                     |   (C++)    |                      |   (C++)   |
 +-----^------+                     +-----^------+                      +-----^-----+
-      |   notify property                | signals                           | data update
+      |   notify property                | signals                          | data update
       +----------------------------------+-----------------------------------+
 ```
-
+``
