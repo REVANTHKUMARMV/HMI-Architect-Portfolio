@@ -44,3 +44,4 @@ flowchart TB
   Note1:::danger
   Note1 -. anchored .- BL
   Note1 -. anchored .- HAL
+  Note1 -. anchored .- HAL
