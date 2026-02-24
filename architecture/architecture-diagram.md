@@ -1,4 +1,5 @@
 # Architecture Diagram (ASCII)
+```
 +-----------------------------+
 |       QML UI Layer         |
 |  Screens, Components, UX   |
@@ -21,3 +22,4 @@ v
 |   Hardware / Device Layer  |
 | Sensors, Motors, Safety    |
 +-----------------------------+
+```
