@@ -52,6 +52,8 @@ Safety‑critical logic never lives in QML.
 The UI is a visual layer only — all validation and state transitions happen in C++.
 
  Key Topics Covered
+
+ 
 ✔ Qt/QML Architecture
    MVVM
    Component libraries
