@@ -1,5 +1,6 @@
 ---
-**MVVM Data Flow (Signals/Slots, Properties, Commands)**  
+
+## 2) **MVVM Data Flow (Signals/Slots, Properties, Commands)**  
 **File:** `architecture/mvvm-pattern-in-qt.md`
 
 ```markdown
