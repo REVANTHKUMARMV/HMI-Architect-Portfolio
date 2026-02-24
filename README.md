@@ -88,6 +88,7 @@ Profiling with Qt Quick Profiler
 
 Architecture Diagram(Planned)
 
+
 +-----------------------------+
 |        QML UI Layer         |
 |  Screens, Components, UX    |
@@ -124,22 +125,6 @@ Reusable buttons, sliders, indicators, dialogs, and layout primitives for embedd
 4. Threaded Backend Example
 A demonstration of worker threads, queued connections, and real‑time data pipelines.
 
-
-//If you’re a recruiter or hiring manager, start here:
-
-portfolio/final-pitch.md
-portfolio/portfolio-story.md
-portfolio/cv-bullet-points.md
-
-//If you’re a developer or architect, start here:
-
-architecture/hmi-architecture-overview.md
-architecture/mvvm-pattern-in-qt.md
-
-//If you’re preparing for interviews:
-
-interview-prep/cto-technical-deep-dive.md
-interview-prep/cpp-qt-trick-questions.md
 
  ##Contact
 If you want to collaborate or discuss HMI architecture, feel free to reach out via Linkedin or email - revanthkumar.skht@gmail.com
