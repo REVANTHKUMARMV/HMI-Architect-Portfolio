@@ -1,7 +1,7 @@
 # HMI-Architect-Portfolio
 “Reusable Qt/QML components, MVVM patterns, and embedded HMI architecture examples.”
 A curated portfolio showcasing my work, thinking, and architectural approach to building embedded HMI/GUI systems using Qt/QML, C++, and Embedded Linux.
-This repository reflects my journey toward becoming a full HMI Architect for medical‑grade devices.
+This repository reflects my journey toward becoming a full HMI Architect for Drones/EmbeddedSystems/medical‑grade devices.
 
 About This Portfolio
 This repository contains:
