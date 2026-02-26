@@ -1,4 +1,5 @@
- ---> qml/components/RpmGauge.qml — Canvas RPM Dial
+---
+---> qml/components/RpmGauge.qml — Canvas RPM Dial
 
 What it does:
 Draws a semicircular arc with a green progress segment proportional to current / max. Paints text like “4350 rpm”.
@@ -29,4 +30,4 @@ How it reacts:
 Uses Connections to rpmVM to update gauge, banner, and overlay based on fault and state.
 Who it talks to:
 Calls rpmVM.cmdStart(...), .cmdStop(), .cmdClearFault().
-
+---
