@@ -1,5 +1,6 @@
 ---
 SRC description of each file and why we need those files and how its connected in the Program ?
+
 src/
     sm_types.h
     hal_interface.h
