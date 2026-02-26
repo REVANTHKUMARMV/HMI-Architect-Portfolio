@@ -44,3 +44,13 @@ File → Open File or Project… → select CMakeLists.txt.
 Choose a Qt 6.5 kit.
 Click Configure Project.
 Click Build, then Run.
+
+---
+
+via Command line
+# From the project root (contains CMakeLists.txt)
+cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
+cmake --build build --config Release
+# Run the app:
+./build/centrifuge-ui-demo           # Linux/macOS
+build\Release\centrifuge-ui-demo.exe # Windows (multi-config)
