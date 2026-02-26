@@ -6,7 +6,7 @@ Draws a semicircular arc with a green progress segment proportional to current /
 How it updates:
 Listens to current / max changes and calls canvas.requestPaint().
 
-
+---
 ---> qml/components/AlarmBanner.qml — Red Safety Banner
 
 What it does:
@@ -15,7 +15,7 @@ visible is controlled from Main.qml.
 Why it matters:
 Immediately signals to the operator that the machine is in a lockout state.
 
-
+---
 ---> qml/Main.qml — Main UI
 
 What it contains:
@@ -30,4 +30,5 @@ How it reacts:
 Uses Connections to rpmVM to update gauge, banner, and overlay based on fault and state.
 Who it talks to:
 Calls rpmVM.cmdStart(...), .cmdStop(), .cmdClearFault().
+
 ---
