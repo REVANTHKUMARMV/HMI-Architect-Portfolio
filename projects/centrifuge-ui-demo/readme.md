@@ -48,9 +48,9 @@ Click Build, then Run.
 ---
 
 via Command line
-# From the project root (contains CMakeLists.txt)
+#  From the project root (contains CMakeLists.txt)
 cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
 cmake --build build --config Release
-# Run the app:
+#  Run the app:
 ./build/centrifuge-ui-demo           # Linux/macOS
 build\Release\centrifuge-ui-demo.exe # Windows (multi-config)
