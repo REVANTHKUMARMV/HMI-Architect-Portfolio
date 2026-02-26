@@ -30,7 +30,7 @@ Why qt_add_qml_module matters:
 It registers your QML under the URI Centrifuge, allowing Main.qml to be loaded via qrc:/Centrifuge/qml/Main.qml.
 
 ---
----> ## Prerequisites
+--->  *Prerequisites*
 
 Qt 6.5+ (components: Qt Quick, Qt Qml)
 CMake 3.16+
@@ -48,9 +48,9 @@ Click Build, then Run.
 ---
 
 via Command line
-#  From the project root (contains CMakeLists.txt)
+  *From the project root (contains CMakeLists.txt)*
 cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
 cmake --build build --config Release
-#  Run the app:
+ *Run the app:*
 ./build/centrifuge-ui-demo           # Linux/macOS
 build\Release\centrifuge-ui-demo.exe # Windows (multi-config)
