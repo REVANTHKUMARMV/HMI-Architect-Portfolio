@@ -1,3 +1,4 @@
+---
 SRC description of each file and why we need those files and how its connected in the Program ?
 src/
     sm_types.h
@@ -11,7 +12,7 @@ src/
     rpm_viewmodel.h
     rpm_viewmodel.cpp
     main.cpp
-    
+---    
 ---> src/sm_types.h — State Machine Types
 
 What it defines:
@@ -21,7 +22,7 @@ CentrifugeController (state logic), RpmViewModel (exposes readable state to QML)
 Why it matters:
 This is the single source of truth for the centrifuge’s high-level state.
 
-
+---
 ---> src/hal_interface.h — Abstract Hardware Interface
 
 What it defines:
@@ -38,7 +39,7 @@ CentrifugeController talks to HalInterface, not HalSim → makes it easy to swap
 Why it matters:
 Decouples business logic from hardware specifics.
 
-
+---
 ---> src/hal_sim.h/.cpp — Simulated Hardware (HAL)
 
 What it does:
@@ -56,7 +57,7 @@ UI indirectly receives updates via ViewModel.
 Why it runs in its own thread:
 So the UI stays buttery smooth and never blocks.
 
-
+---
 --->  src/hal_factory.h/.cpp — HAL Singleton + Worker Thread
 
 What it does:
@@ -71,7 +72,7 @@ main.cpp asks the factory to start the HAL and returns a HalInterface*.
 Why it matters:
 This ensures the hardware layer runs off the UI thread and is cleanly started/stopped.
 
-
+---
 --->  src/centrifuge_controller.h/.cpp — The Brain (State Machine + Safety)
 
 What it does:
@@ -88,7 +89,7 @@ Why it matters:
 It encapsulates safe transitions:
 Idle → Running → Alarm (lockout), and enforces safety rules.
 
-
+---
 ---> src/rpm_viewmodel.h/.cpp — MVVM: ViewModel for QML
 
 What it exposes to QML (properties):
@@ -111,7 +112,7 @@ Controller signals → updates internal fields → emits QML property change sig
 Why it matters:
 Keeps QML declarative and clean; all logic stays in C++.
 
-
+---
 ---> src/main.cpp — App Bootstrap
 
 What it does:
@@ -127,3 +128,5 @@ Stop HAL on exit
 
 Why it matters:
 Wires the backend and frontend together in a clean, minimal way.  
+
+---
