@@ -30,7 +30,7 @@ Why qt_add_qml_module matters:
 It registers your QML under the URI Centrifuge, allowing Main.qml to be loaded via qrc:/Centrifuge/qml/Main.qml.
 
 ---
----> # Prerequisites
+---> ## Prerequisites
 
 Qt 6.5+ (components: Qt Quick, Qt Qml)
 CMake 3.16+
