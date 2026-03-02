@@ -122,4 +122,4 @@ A demonstration of worker threads, queued connections, and real‑time data pipe
 
 
  ##Contact
-If you want to collaborate or discuss HMI architecture, feel free to reach out via Linkedin or email - revanthkumar.skht@gmail.com
+If you want to collaborate or discuss HMI architecture, feel free to reach out via Linkedin www.linkedin.com/in/revanthkumar-mv or email - revanthkumar.skht@gmail.com
